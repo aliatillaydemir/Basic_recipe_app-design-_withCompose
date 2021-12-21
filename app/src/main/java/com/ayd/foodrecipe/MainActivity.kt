@@ -44,7 +44,7 @@ fun MainMethod() {
     val scrollState = rememberScrollState()
 
     // Smooth scroll to specified pixels on first composition
-    LaunchedEffect(Unit) { scrollState.animateScrollTo(10000) }
+    //LaunchedEffect(Unit) { scrollState.animateScrollTo(10000) }
 
     val context = LocalContext.current // for toastMessage
 
