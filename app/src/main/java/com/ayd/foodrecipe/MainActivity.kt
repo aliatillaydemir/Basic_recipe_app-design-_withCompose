@@ -51,7 +51,7 @@ fun MainMethod() {
     Scaffold(
         topBar = {
             TopAppBar(
-                title = {Text(text = "Recipe")},
+                title = {Text(text = "Recipe App")},
                 backgroundColor = colorResource(id = R.color.mainColor)
             )
 
